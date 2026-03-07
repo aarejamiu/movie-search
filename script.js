@@ -93,6 +93,8 @@ let lastSearch = localStorage.getItem("lastSearch");
 if(lastSearch){
 document.getElementById("searchInput").value = lastSearch;
 search();
+
+localStorage.removeItem("lastSearch");
 }
 
 }
