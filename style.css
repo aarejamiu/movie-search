@@ -57,7 +57,13 @@ h1{
     margin-bottom:20px;
     font-size:40px;
 }
-
+#searchBar{
+    margin-bottom:5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 /* Search input */
 #searchInput{
     width:300px;

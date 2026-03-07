@@ -1,6 +1,6 @@
 const API_KEY = '7f12673c';
 async function search() {
-    let searchInput = document.getElementById('searchInput').value;
+    let searchInput = document.getElementById('searchInput').value.trim();
     localStorage.setItem("lastSearch", searchInput);
     let url = `https://www.omdbapi.com/?s=${searchInput}&apikey=${API_KEY}`;
     document.getElementById('loading').innerHTML = 'Loading...';
